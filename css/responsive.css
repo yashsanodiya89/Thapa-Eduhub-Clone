@@ -1,0 +1,886 @@
+@media screen and (max-width: 200px) {
+  html {
+    font-size: 20%;
+  }
+
+  p,
+  a,
+  label {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    height: 8rem;
+    flex-direction: column;
+  }
+
+  .options ul {
+    gap: 1rem;
+  }
+
+  .logo img {
+    height: 3rem;
+  }
+
+  .hero-section {
+    height: 90rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-content-text {
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+
+  .hero-content-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content-text p {
+    font-size: 1.2rem;
+  }
+
+  .hero-content-image {
+    width: 100%;
+  }
+
+  .custom-shape-divider-bottom-1724875487 svg {
+    height: 10rem;
+  }
+
+  /* about section */
+  .about-section {
+    height: 180rem;
+    align-items: flex-start;
+  }
+
+  .about-content {
+    width: 95%;
+  }
+
+  .about-text h2,
+  .explore-text h2,
+  .why-choose-heading h2,
+  .contact-us-text h2 {
+    font-size: 3rem;
+  }
+
+  .about-text p,
+  .explore-text p {
+    font-size: 1.5rem;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    height: 150rem;
+    gap: 2rem;
+  }
+
+  .about-button {
+    width: 95%;
+  }
+
+  /* explore section */
+  .explore-section {
+    height: 250rem;
+    justify-content: flex-start;
+  }
+
+  .explore-content {
+    width: 95%;
+  }
+
+  .explore-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    place-items: center;
+  }
+
+  .explore-card {
+    align-items: center;
+    width: 20rem;
+    text-align: center;
+  }
+
+  /* why choose section */
+  .why-choose-heading {
+    padding: 5rem 2rem;
+  }
+
+  .why-choose-content-main {
+    height: 250rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .why-choose-features,
+  .why-choose-image {
+    width: 100%;
+  }
+  .why-choose-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-card-section {
+    height: 50rem;
+  }
+
+  .contact-card-div {
+    height: 60rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .contact-card-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-card-image {
+    width: 100%;
+  }
+
+  /* footer section */
+
+  .footer-section {
+    height: 100rem;
+  }
+
+  .footer-details {
+    height: 75rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us {
+    height: 100rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact-us-text {
+    height: 20rem;
+    padding: 2.5rem 0 0 2.5rem;
+  }
+
+  .contact-us-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-us-form {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 201px) and (max-width: 330px) {
+  html {
+    font-size: 40%;
+  }
+
+  p,
+  a,
+  label {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    height: 8rem;
+    flex-direction: column;
+  }
+
+  .options ul {
+    gap: 1rem;
+  }
+
+  .logo img {
+    height: 3rem;
+  }
+
+  .hero-section {
+    height: 90rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-content-text {
+    width: 100%;
+    align-items: center;
+    height: auto;
+  }
+
+  .hero-content-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content-text p {
+    font-size: 1.2rem;
+  }
+
+  .hero-content-image {
+    width: 100%;
+  }
+
+  .custom-shape-divider-bottom-1724875487 svg {
+    height: 10rem;
+  }
+
+  /* about section */
+  .about-section {
+    height: 180rem;
+    align-items: flex-start;
+  }
+
+  .about-content {
+    width: 95%;
+  }
+
+  .about-text h2,
+  .explore-text h2,
+  .why-choose-heading h2,
+  .contact-us-text h2 {
+    font-size: 3rem;
+  }
+
+  .about-text p,
+  .explore-text p {
+    font-size: 1.5rem;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    height: 150rem;
+    gap: 2rem;
+  }
+
+  .about-button {
+    width: 95%;
+  }
+
+  /* explore section */
+  .explore-section {
+    height: 250rem;
+    justify-content: flex-start;
+  }
+
+  .explore-content {
+    width: 95%;
+  }
+
+  .explore-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    place-items: center;
+  }
+
+  .explore-card {
+    align-items: center;
+    width: 20rem;
+    text-align: center;
+  }
+
+  /* why choose section */
+  .why-choose-heading {
+    padding: 5rem 2rem;
+  }
+
+  .why-choose-content-main {
+    height: 250rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .why-choose-features,
+  .why-choose-image {
+    width: 100%;
+  }
+  .why-choose-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact-card-section {
+    height: 50rem;
+  }
+
+  .contact-card-div {
+    height: 60rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .contact-card-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-card-image {
+    width: 100%;
+  }
+
+  /* footer section */
+
+  .footer-section {
+    height: 100rem;
+  }
+
+  .footer-details {
+    height: 75rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us {
+    height: 100rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact-us-text {
+    height: 20rem;
+    padding: 2.5rem 0 0 2.5rem;
+  }
+
+  .contact-us-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-us-form {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 331px) and (max-width: 750px) {
+  html {
+    font-size: 50%;
+  }
+
+  p,
+  a,
+  label {
+    font-size: 1.5rem;
+  }
+
+  .navbar {
+    height: 10rem;
+    flex-direction: column;
+  }
+
+  .options ul {
+    gap: 2rem;
+  }
+
+  .logo img {
+    height: 4rem;
+  }
+
+  .hero-section {
+    height: 110rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .hero-content-text {
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero-content-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-content-text p {
+    font-size: 1.5rem;
+  }
+
+  .hero-content-image {
+    width: 100%;
+  }
+
+  .custom-shape-divider-bottom-1724875487 svg {
+    height: 18rem;
+  }
+
+  /* about section */
+  .about-section {
+    height: 180rem;
+    align-items: flex-start;
+  }
+
+  .about-content {
+    width: 95%;
+  }
+
+  .about-text h2,
+  .explore-text h2,
+  .why-choose-heading h2,
+  .contact-us-text h2 {
+    font-size: 3rem;
+  }
+
+  .about-text p,
+  .explore-text p {
+    font-size: 1.5rem;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    height: 150rem;
+    gap: 2rem;
+  }
+
+  .about-button {
+    width: 95%;
+  }
+
+  /* explore section */
+  .explore-section {
+    height: 250rem;
+    justify-content: flex-start;
+  }
+
+  .explore-content {
+    width: 95%;
+  }
+
+  .explore-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    place-items: center;
+  }
+
+  .explore-card {
+    align-items: center;
+    width: 40rem;
+    text-align: center;
+  }
+
+  /* why choose section */
+  .why-choose-heading {
+    padding: 5rem 2rem;
+  }
+
+  .why-choose-content-main {
+    height: 250rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .why-choose-features,
+  .why-choose-image {
+    width: 100%;
+  }
+
+  .contact-card-section {
+    height: 70rem;
+  }
+  .contact-card-div {
+    height: 60rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .contact-card-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-card-image {
+    width: 100%;
+  }
+
+  /* footer section */
+
+  .footer-section {
+    height: 100rem;
+  }
+
+  .footer-details {
+    height: 70rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us {
+    height: 100rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact-us-text {
+    height: 20rem;
+    padding: 2.5rem 0 0 2.5rem;
+  }
+
+  .contact-us-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-us-form {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+
+  p,
+  a,
+  label {
+    font-size: 1.8rem;
+  }
+
+  .navbar {
+    height: 10rem;
+  }
+
+  .options ul {
+    gap: 2rem;
+  }
+
+  .logo img {
+    height: 5rem;
+  }
+
+  .hero-section {
+    height: 140rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .hero-content-text {
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero-content-text h1 {
+    font-size: 3rem;
+  }
+
+  .hero-content-text p {
+    font-size: 1.5rem;
+  }
+
+  .hero-content-image {
+    width: 100%;
+  }
+
+  .custom-shape-divider-bottom-1724875487 svg {
+    height: 18rem;
+  }
+
+  /* about section */
+  .about-section {
+    height: 180rem;
+    align-items: flex-start;
+  }
+
+  .about-content {
+    width: 95%;
+  }
+
+  .about-text h2,
+  .explore-text h2,
+  .why-choose-heading h2,
+  .contact-us-text h2 {
+    font-size: 3rem;
+  }
+
+  .about-text p,
+  .explore-text p {
+    font-size: 1.5rem;
+  }
+
+  .about-buttons {
+    flex-direction: column;
+    height: 150rem;
+    gap: 2rem;
+  }
+
+  .about-button {
+    width: 95%;
+  }
+
+  /* explore section */
+  .explore-section {
+    height: 250rem;
+    justify-content: flex-start;
+  }
+
+  .explore-content {
+    width: 100%;
+  }
+
+  .explore-cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    place-items: center;
+  }
+
+  .explore-card {
+    align-items: center;
+    width: 80rem;
+    text-align: center;
+  }
+
+  /* why choose section */
+  .why-choose-heading {
+    padding: 5rem 2rem;
+  }
+
+  .why-choose-content-main {
+    height: 250rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .why-choose-features,
+  .why-choose-image {
+    width: 100%;
+  }
+
+  /* contact card section */
+  .contact-card-section {
+    height: 70rem;
+  }
+  .contact-card-div {
+    height: 60rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .contact-card-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-card-image {
+    width: 100%;
+  }
+
+  /* footer section */
+
+  .footer-section {
+    height: 100rem;
+  }
+
+  .footer-details {
+    height: 70rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us {
+    height: 100rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact-us-text {
+    height: 20rem;
+    padding: 2.5rem 0 0 2.5rem;
+  }
+
+  .contact-us-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-us-form {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .hero-section {
+    height: 150rem;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .hero-content-text {
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero-content-image {
+    width: 100%;
+  }
+
+  /* about section */
+  .about-section {
+    height: 130rem;
+    align-items: flex-start;
+  }
+
+  .about-content {
+    width: 95%;
+  }
+
+  .about-text h2,
+  .explore-text h2,
+  .why-choose-heading h2,
+  .contact-us-text h2 {
+    font-size: 2.8rem;
+  }
+
+  .about-text p,
+  .explore-text p {
+    font-size: 2rem;
+  }
+
+  .about-buttons {
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120rem;
+    gap: 2rem;
+  }
+
+  .about-button {
+    width: 50%;
+  }
+
+  /* explore section */
+  .explore-section {
+    height: 150rem;
+    justify-content: flex-start;
+  }
+
+  .explore-content {
+    width: 100%;
+  }
+
+  .explore-cards {
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+  }
+
+  .explore-card {
+    align-items: center;
+    width: 40rem;
+    text-align: center;
+  }
+
+  /* why choose section */
+  .why-choose-heading {
+    padding: 5rem 2rem;
+  }
+
+  .why-choose-content-main {
+    height: 250rem;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .why-choose-features,
+  .why-choose-image {
+    width: 100%;
+  }
+
+  .features-card-left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .features-card-right {
+    align-items: center;
+    text-align: center;
+  }
+  /* contact card section */
+  .contact-card-section {
+    height: 70rem;
+  }
+  .contact-card-div {
+    height: 60rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .contact-card-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-card-image {
+    width: 100%;
+  }
+
+  /* footer section */
+
+  .footer-section {
+    height: 100rem;
+  }
+
+  .footer-details {
+    height: 70rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us {
+    height: 100rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .contact-us-text {
+    height: 20rem;
+    padding: 2.5rem 0 0 2.5rem;
+  }
+
+  .contact-us-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-us-form {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .explore-section {
+    height: 150rem;
+  }
+  .explore-cards {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+}
